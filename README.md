@@ -96,6 +96,13 @@ kubectl get cm aws-auth -n kube-system -o yaml
           []
       kind: ConfigMap
 
+Now let's create role and their role binding of groups system:reader and system:masters with viewonly and cluster-admin roles respectively.
+
+      kubectl apply -f cluster-admin-rolebinding.yaml
+      kubectl apply -f cluster-admin-rolebinding.yaml
+      kubectl apply -f cluster-viewonly.yaml
+      kubectl apply -f cluster-viewonly-rolebinding.yaml
+
 Now generate the sso profile for admin user first:
 
              C:\Users\tushar dashpute\.aws> **aws configure sso**
