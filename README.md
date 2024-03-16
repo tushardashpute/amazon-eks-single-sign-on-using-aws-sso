@@ -5,4 +5,4 @@ https://aws.amazon.com/blogs/containers/a-quick-path-to-amazon-eks-single-sign-o
 
 Assumption:
 
-You have AD enabled and SSO for AWS is integrated. If not Please (follow[https://github.com/tushardashpute/sso_eks_authentication])
+You have AD enabled and SSO for AWS is integrated. If not Please [follow](https://github.com/tushardashpute/sso_eks_authentication)
